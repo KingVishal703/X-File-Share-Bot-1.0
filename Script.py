@@ -42,7 +42,7 @@ Special Advantage If This Bot Got Banned, Your Link Will Never Expire, So Just S
 
     
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : @hentai_Hanime_Update_Channel {file_name}
+    CAPTION = """<b>JOIN 👉 : @KINGSXHOT {file_name}
 
 
 

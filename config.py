@@ -20,9 +20,9 @@ def is_enabled(value, default):
 AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002004970578').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
         
 # Bot Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "13441344"))
+API_HASH = environ.get("API_HASH", "2f10533d9068507d0c10bf1074527167")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6335646151:AAF22GWMVxarTI7lTuSRTBwsRA1IvwHrQXw")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/3688b40ad4a38da0efed0-47f7fd426ede18b264.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5654093580').split()]
@@ -37,7 +37,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://timed29716:jzE1SqRNktFycmVo@cluster0.kco6t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://mrsam:mrsam1212@cluster0.br8a94z.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "Xeonfilestore01")
 
 # Auto Delete Information
@@ -66,7 +66,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "af06cdd4d01fac7127756fec759b8328c1
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/hentai_Hanime_Update_Channel/40") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://filexsharingbot.blogspot.com/2024/11/darkshare1bot.html") # For More Information Check Video On Yt - @Tech_VJ

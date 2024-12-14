@@ -26,7 +26,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "6335646151:AAF22GWMVxarTI7lTuSRTBwsRA1IvwH
 
 PICS = (environ.get('PICS', 'https://graph.org/file/3688b40ad4a38da0efed0-47f7fd426ede18b264.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5654093580').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Dark_Share1Bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Mzfilestorerobot") # without @
 PORT = environ.get("PORT", "80")
 
 # Clone Info :-

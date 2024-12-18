@@ -17,17 +17,17 @@ def is_enabled(value, default):
     else:
         return default
 
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002004970578').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002264586785').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
         
 # Bot Information
-API_ID = int(environ.get("API_ID", "13441344"))
-API_HASH = environ.get("API_HASH", "2f10533d9068507d0c10bf1074527167")
+API_ID = int(environ.get("API_ID", "28277662"))
+API_HASH = environ.get("API_HASH", "367b38674199ccc72629d43f7c073662")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/3688b40ad4a38da0efed0-47f7fd426ede18b264.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5654093580').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Mzfilestorerobot") # without @
-PORT = environ.get("PORT", "80")
+BOT_USERNAME = environ.get("BOT_USERNAME", "Anime_Files_Store_DBot") # without @
+PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
@@ -37,7 +37,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://mrsam:mrsam1212@cluster0.br8a94z.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = environ.get("DB_URI", "mongodb+srv://totipa4210:xlWOaPYnIKXmAaEq@cluster0.zbd31.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "Xeonfilestore01")
 
 # Auto Delete Information
@@ -48,7 +48,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "20")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1200")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002392037274"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002243581329"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -69,7 +69,7 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/hentai_Hanime_Upd
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-WEBSITE_URL = environ.get("WEBSITE_URL", "https://www.kingvshortner.in/2024/12/kingxbot.html") # For More Information Check Video On Yt - @Tech_VJ
+WEBSITE_URL = environ.get("WEBSITE_URL", "https://www.kingvshortner.in/2024/11/redirecting-to-your-link-code-credit.html") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
@@ -82,7 +82,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://web-ysedljx4v497.up-de-fra1-k8s-1.apps.run-on-seenode.com/")
+URL = environ.get("URL", "")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
